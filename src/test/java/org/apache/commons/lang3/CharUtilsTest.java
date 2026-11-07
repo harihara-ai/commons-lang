@@ -169,6 +169,25 @@ class CharUtilsTest extends AbstractLangTest {
     }
 
     @Test
+    void testCharacterizationIsAsciiNumericAllChars() {
+        // CHAR: pins isAsciiNumeric(char) for every char value
+        for (int i = Character.MIN_VALUE; i <= Character.MAX_VALUE; i++) {
+            final char ch = (char) i;
+            assertEquals(ch >= '0' && ch <= '9', CharUtils.isAsciiNumeric(ch), () -> "char " + (int) ch);
+        }
+    }
+
+    @Test
+    void testCharacterizationIsHexAllChars() {
+        // CHAR: pins isHex(char) for every char value
+        final String hex = "0123456789abcdefABCDEF";
+        for (int i = Character.MIN_VALUE; i <= Character.MAX_VALUE; i++) {
+            final char ch = (char) i;
+            assertEquals(hex.indexOf(ch) >= 0, CharUtils.isHex(ch), () -> "char " + (int) ch);
+        }
+    }
+
+    @Test
     void testIsAsciiControl_char() {
         assertFalse(CharUtils.isAsciiControl('a'));
         assertFalse(CharUtils.isAsciiControl('A'));

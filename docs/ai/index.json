@@ -3,13 +3,13 @@
   "id": "lang3-core",
   "path": "src/main/java/org/apache/commons/lang3",
   "kind": "module",
-  "purpose": "core utilities",
+  "purpose": "core utilities; CharUtils.isAsciiWhitespace (CL-1), BitField.getValue(long) zero fill (CL-2), CharUtils char overloads delegate (CL-3)",
   "module": "core",
   "module_paths": [
    "src/main/java/org/apache/commons/lang3/*.java"
   ],
   "confidence": "low",
-  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "verified_sha": "4564cd77237abace71a82c2942588570e3320e52",
   "depends_on": [],
   "est_tokens": null
  },
@@ -249,7 +249,7 @@
    "src/main/java/*"
   ],
   "confidence": "medium",
-  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "verified_sha": "4564cd77237abace71a82c2942588570e3320e52",
   "depends_on": [],
   "est_tokens": 300
  },
@@ -275,7 +275,7 @@
    "src/test/java/*"
   ],
   "confidence": "medium",
-  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "verified_sha": "4564cd77237abace71a82c2942588570e3320e52",
   "depends_on": [],
   "est_tokens": 200
  }

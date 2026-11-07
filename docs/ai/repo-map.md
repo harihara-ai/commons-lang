@@ -1,4 +1,4 @@
-purpose: one-screen map of the repo for slicing and impact scans (bootstrap, at 45c5c21).
+purpose: one-screen map of the repo for slicing and impact scans (bootstrap at 45c5c21; refreshed at 4564cd7).
 
 | Path | What |
 | --- | --- |

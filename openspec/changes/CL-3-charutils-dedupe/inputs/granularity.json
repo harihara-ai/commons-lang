@@ -1,0 +1,5 @@
+{"slices": [
+ {"id": "S0", "title": "characterize isAsciiNumeric(char) and isHex(char)", "kind": "characterization", "scenarios": 2,
+  "modules": 1, "contracts": 0, "symbols": 2, "lines": 25, "files": 1, "untested": "none", "testable": "yes", "estimate": true},
+ {"id": "S1", "title": "char overloads delegate to int overloads", "scenarios": 0, "modules": 1, "contracts": 0,
+  "symbols": 2, "lines": 4, "files": 1, "untested": "none", "testable": "yes", "estimate": true}]}

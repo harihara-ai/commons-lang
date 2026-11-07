@@ -1,0 +1,282 @@
+[
+ {
+  "id": "lang3-core",
+  "path": "src/main/java/org/apache/commons/lang3",
+  "kind": "module",
+  "purpose": "core utilities",
+  "module": "core",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/*.java"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-builder",
+  "path": "src/main/java/org/apache/commons/lang3/builder",
+  "kind": "module",
+  "purpose": "builder package",
+  "module": "builder",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/builder/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-text",
+  "path": "src/main/java/org/apache/commons/lang3/text",
+  "kind": "module",
+  "purpose": "text package",
+  "module": "text",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/text/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-time",
+  "path": "src/main/java/org/apache/commons/lang3/time",
+  "kind": "module",
+  "purpose": "time package",
+  "module": "time",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/time/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-math",
+  "path": "src/main/java/org/apache/commons/lang3/math",
+  "kind": "module",
+  "purpose": "math package",
+  "module": "math",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/math/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-reflect",
+  "path": "src/main/java/org/apache/commons/lang3/reflect",
+  "kind": "module",
+  "purpose": "reflect package",
+  "module": "reflect",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/reflect/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-concurrent",
+  "path": "src/main/java/org/apache/commons/lang3/concurrent",
+  "kind": "module",
+  "purpose": "concurrent package",
+  "module": "concurrent",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/concurrent/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-function",
+  "path": "src/main/java/org/apache/commons/lang3/function",
+  "kind": "module",
+  "purpose": "function package",
+  "module": "function",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/function/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-stream",
+  "path": "src/main/java/org/apache/commons/lang3/stream",
+  "kind": "module",
+  "purpose": "stream package",
+  "module": "stream",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/stream/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-tuple",
+  "path": "src/main/java/org/apache/commons/lang3/tuple",
+  "kind": "module",
+  "purpose": "tuple package",
+  "module": "tuple",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/tuple/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-mutable",
+  "path": "src/main/java/org/apache/commons/lang3/mutable",
+  "kind": "module",
+  "purpose": "mutable package",
+  "module": "mutable",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/mutable/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-exception",
+  "path": "src/main/java/org/apache/commons/lang3/exception",
+  "kind": "module",
+  "purpose": "exception package",
+  "module": "exception",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/exception/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-event",
+  "path": "src/main/java/org/apache/commons/lang3/event",
+  "kind": "module",
+  "purpose": "event package",
+  "module": "event",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/event/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-compare",
+  "path": "src/main/java/org/apache/commons/lang3/compare",
+  "kind": "module",
+  "purpose": "compare package",
+  "module": "compare",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/compare/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-arch",
+  "path": "src/main/java/org/apache/commons/lang3/arch",
+  "kind": "module",
+  "purpose": "arch package",
+  "module": "arch",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/arch/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "lang3-util",
+  "path": "src/main/java/org/apache/commons/lang3/util",
+  "kind": "module",
+  "purpose": "util package",
+  "module": "util",
+  "module_paths": [
+   "src/main/java/org/apache/commons/lang3/util/*"
+  ],
+  "confidence": "low",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": null
+ },
+ {
+  "id": "practices",
+  "path": "docs/ai/practices.md",
+  "kind": "practices",
+  "purpose": "how the repo works",
+  "module": null,
+  "module_paths": [
+   ".github/*",
+   "pom.xml",
+   "CONTRIBUTING.md"
+  ],
+  "confidence": "medium",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": 450
+ },
+ {
+  "id": "repo-map",
+  "path": "docs/ai/repo-map.md",
+  "kind": "map",
+  "purpose": "one-screen repo map",
+  "module": null,
+  "module_paths": [
+   "src/main/java/*"
+  ],
+  "confidence": "medium",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": 300
+ },
+ {
+  "id": "toolchain",
+  "path": "docs/ai/toolchain.md",
+  "kind": "toolchain",
+  "purpose": "probe results",
+  "module": null,
+  "module_paths": [],
+  "confidence": "medium",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": 150
+ },
+ {
+  "id": "quarantine",
+  "path": "docs/ai/quarantine.md",
+  "kind": "quarantine",
+  "purpose": "quarantined tests",
+  "module": null,
+  "module_paths": [
+   "src/test/java/*"
+  ],
+  "confidence": "medium",
+  "verified_sha": "45c5c21bb50b68df57511c782f7ecd0e0f78f0a9",
+  "depends_on": [],
+  "est_tokens": 200
+ }
+]

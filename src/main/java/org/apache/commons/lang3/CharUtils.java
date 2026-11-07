@@ -204,7 +204,7 @@ public class CharUtils {
      * @since 3.21.0
      */
     public static boolean isAsciiWhitespace(final char ch) {
-        return ch == ' ' || ch >= '\t' && ch <= '\r';
+        return ch == ' ' || (ch >= '\t' && ch <= '\r');
     }
 
     /**

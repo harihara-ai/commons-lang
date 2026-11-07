@@ -223,7 +223,7 @@ public class CharUtils {
      * @return true if between 48 and 57 inclusive
      */
     public static boolean isAsciiNumeric(final char ch) {
-        return ch >= '0' && ch <= '9';
+        return isAsciiNumeric((int) ch);
     }
 
     /**
@@ -289,7 +289,7 @@ public class CharUtils {
      * @since 3.18.0
      */
     public static boolean isHex(final char ch) {
-        return isAsciiNumeric(ch) || ch >= 'a' && ch <= 'f' || ch >= 'A' && ch <= 'F';
+        return isHex((int) ch);
     }
 
     /**

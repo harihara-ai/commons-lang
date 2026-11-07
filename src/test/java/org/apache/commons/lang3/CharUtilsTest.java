@@ -144,6 +144,31 @@ class CharUtilsTest extends AbstractLangTest {
     }
 
     @Test
+    void testREQ_CHAR_001_isAsciiWhitespace_asciiWhitespace() {
+        for (final char ch : new char[] {' ', '\t', '\n', '\u000B', '\f', '\r'}) {
+            assertTrue(CharUtils.isAsciiWhitespace(ch), () -> "char " + (int) ch);
+        }
+    }
+
+    @Test
+    void testREQ_CHAR_001_isAsciiWhitespace_unicodeWhitespace() {
+        assertFalse(CharUtils.isAsciiWhitespace('\u00A0'));
+        assertFalse(CharUtils.isAsciiWhitespace('\u2003'));
+        assertFalse(CharUtils.isAsciiWhitespace('\u001C'));
+    }
+
+    @Test
+    void testREQ_CHAR_001_isAsciiWhitespace_allOtherChars() {
+        final String whitespace = " \t\n\u000B\f\r";
+        for (int i = Character.MIN_VALUE; i <= Character.MAX_VALUE; i++) {
+            final char ch = (char) i;
+            if (whitespace.indexOf(ch) < 0) {
+                assertFalse(CharUtils.isAsciiWhitespace(ch), () -> "char " + (int) ch);
+            }
+        }
+    }
+
+    @Test
     void testIsAsciiControl_char() {
         assertFalse(CharUtils.isAsciiControl('a'));
         assertFalse(CharUtils.isAsciiControl('A'));

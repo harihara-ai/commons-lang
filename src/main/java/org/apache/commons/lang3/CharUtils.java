@@ -189,6 +189,25 @@ public class CharUtils {
     }
 
     /**
+     * Tests whether the character is ASCII 7 bit whitespace: space, tab, line feed, vertical tab, form feed or
+     * carriage return. Unlike {@link Character#isWhitespace(char)}, no other Unicode character matches.
+     *
+     * <pre>
+     *   CharUtils.isAsciiWhitespace(' ')      = true
+     *   CharUtils.isAsciiWhitespace('\t')     = true
+     *   CharUtils.isAsciiWhitespace('a')      = false
+     *   CharUtils.isAsciiWhitespace('\u2003') = false
+     * </pre>
+     *
+     * @param ch  the character to check
+     * @return true if 32, or between 9 and 13 inclusive
+     * @since 3.21.0
+     */
+    public static boolean isAsciiWhitespace(final char ch) {
+        return ch == ' ' || ch >= '\t' && ch <= '\r';
+    }
+
+    /**
      * Tests whether the character is ASCII 7 bit numeric.
      *
      * <pre>

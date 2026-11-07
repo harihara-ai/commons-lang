@@ -27,3 +27,8 @@ site-content
 # NetBeans files
 nb-configuration.xml
 nbactions.xml
+
+# North Star kit
+__pycache__/
+.coverage
+openspec/changes/*/gates-*.json

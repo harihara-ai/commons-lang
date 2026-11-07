@@ -1,0 +1,3 @@
+{"slices": [{"id": "S1", "title": "isAsciiWhitespace for the 6 ASCII whitespace characters", "scenarios": 3,
+  "modules": 1, "contracts": 0, "symbols": 1, "lines": 40, "files": 2, "untested": "none", "testable": "yes",
+  "estimate": true}]}

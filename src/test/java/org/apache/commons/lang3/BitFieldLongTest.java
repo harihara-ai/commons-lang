@@ -171,6 +171,24 @@ class BitFieldLongTest extends AbstractLangTest {
         assertEquals(0x12L, field.getValue(holder));
     }
 
+    @Test
+    void testREQ_BIT_001_getValueTopFourBits() {
+        assertEquals(15L, new BitField(0xF000000000000000L).getValue(-1L));
+    }
+
+    @Test
+    void testREQ_BIT_001_getValueBit63() {
+        assertEquals(1L, new BitField(0x8000000000000000L).getValue(0x8000000000000000L));
+    }
+
+    @Test
+    void testREQ_BIT_001_setValueGetValueRoundTripTopBits() {
+        final BitField field = new BitField(0xF000000000000000L);
+        for (long v = 0; v <= 15; v++) {
+            assertEquals(v, field.getValue(field.setValue(0L, v)));
+        }
+    }
+
     /**
      * Tests the isSet() and isAllSet() methods
      */

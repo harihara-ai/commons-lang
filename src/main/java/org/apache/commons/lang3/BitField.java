@@ -212,7 +212,7 @@ public class BitField {
      * @since 3.21.0
      */
     public long getValue(final long holder) {
-        return getRawValue(holder) >> shiftCount;
+        return getRawValue(holder) >>> shiftCount;
     }
 
     /**

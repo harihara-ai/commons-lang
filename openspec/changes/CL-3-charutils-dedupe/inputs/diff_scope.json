@@ -1,0 +1,6 @@
+{
+ "impact_scan": [
+  "src/main/java/org/apache/commons/lang3/CharUtils.java",
+  "src/test/java/org/apache/commons/lang3/CharUtilsTest.java"
+ ]
+}
